@@ -1,6 +1,6 @@
 # LoDADA: Localized Dynamics-Aware Domain Adaptation for Off-Dynamics Offline Reinforcement Learning
 
-### <p align="center">[NeurIPS 2026]</p>
+### <p align="center">[NeurIPS 2026 Spotlight]</p>
 
 <p align="center">
   Zhangjie Xia<sup>1,*</sup> ·
@@ -13,7 +13,7 @@
 <sup>*</sup> Equal contribution
 </p>
 
-Code for the paper "Localized Dynamics-Aware Domain Adaptation for Off-Dynamics Offline Reinforcement Learning", Advances in Neural Information Processing Systems (NeurIPS) 2026.
+Code for the paper "Localized Dynamics-Aware Domain Adaptation for Off-Dynamics Offline Reinforcement Learning", Advances in Neural Information Processing Systems (NeurIPS 2026 Spotlight).
 
 ## Installation
 
