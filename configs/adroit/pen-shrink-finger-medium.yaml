@@ -1,0 +1,19 @@
+# Adroit kinematic/morphology shift: pen-shrink-finger-medium
+
+domain: adroit
+env: pen-shrink-finger
+shift_level: medium
+source_dataset: pen-human-v0
+srctype: medium
+tartype: medium
+max_step: 500000
+
+# LoDADA hyperparameters
+num_clusters: 30
+reg_weight: 1.0
+alpha: 1.0
+diameter_threshold: 5.0
+filter_ratio_small: 0.9
+filter_ratio_medium: 0.8
+filter_ratio_large: 0.7
+kmeans_n_init: 1

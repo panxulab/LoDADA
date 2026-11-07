@@ -1,0 +1,18 @@
+# MuJoCo gravity/friction shift: hopper-gravity-5.0
+
+domain: mujoco
+env: hopper-gravity
+shift_level: 5.0
+source_dataset: hopper-medium-v2
+srctype: medium
+tartype: medium
+max_step: 1000000
+
+# LoDADA hyperparameters
+num_clusters: 30
+reg_weight: 1.0
+alpha: 1.0
+diameter_threshold: 5.0
+filter_ratio_small: 0.9
+filter_ratio_medium: 0.8
+filter_ratio_large: 0.7

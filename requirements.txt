@@ -1,0 +1,17 @@
+# Tested with Python 3.8.13 and CUDA 12.1. mujoco-py also needs the MuJoCo 2.1.0 binaries
+# in ~/.mujoco/mujoco210 (see https://github.com/openai/mujoco-py#install-mujoco).
+# Install setuptools==63.2.0 and wheel==0.38.4 first so that gym 0.18.3 builds.
+torch==2.4.1
+numpy==1.23.5
+scipy==1.10.1
+scikit-learn==1.2.2
+gym==0.18.3
+mujoco-py==2.1.2.14
+Cython==0.29.23
+dm-control==1.0.8
+D4RL @ git+https://github.com/Farama-Foundation/D4RL.git@4235ef21ac5ba35285ecfce133d9eff62f3490e5
+h5py==3.11.0
+PyYAML==6.0.2
+tensorboardX==2.5.1
+tqdm
+wandb==0.13.2  # optional, only used with --wandb

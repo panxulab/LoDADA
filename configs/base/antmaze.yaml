@@ -1,0 +1,26 @@
+# Shared training hyperparameters for AntMaze navigation.
+# Task configs in configs/<family>/*.yaml are merged on top of this file.
+
+# networks and optimization
+hidden_sizes: 256
+actor_lr: 0.0003
+critic_lr: 0.0003
+batch_size: 128        # per domain: each update uses 128 source + 128 target transitions
+gamma: 0.99
+tau: 0.005             # target network update rate
+
+# IQL backbone
+lam: 0.7               # expectile
+temp: 3.0               # inverse temperature of advantage-weighted regression
+
+# LoDADA defaults (task configs override these)
+sigma: 1.0             # input noise std of the domain classifier
+classifier_epochs: 100 # max training epochs of each cluster classifier (early stopping, patience 15)
+alpha: 1.0             # importance weight exp(-alpha * d_hat) on source samples in the critic loss
+beta: 1.0              # BC weight on source samples, only used when noreg is true
+noreg: false           # true disables the CVAE policy regularizer
+kmeans_n_init: 10
+
+# evaluation
+eval_freq: 10000
+eval_episodes: 50

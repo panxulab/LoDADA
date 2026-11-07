@@ -1,0 +1,18 @@
+# MuJoCo gravity/friction shift: halfcheetah-friction-2.0
+
+domain: mujoco
+env: halfcheetah-friction
+shift_level: 2.0
+source_dataset: halfcheetah-medium-v2
+srctype: medium
+tartype: medium
+max_step: 1000000
+
+# LoDADA hyperparameters
+num_clusters: 50
+reg_weight: 0.1
+alpha: 1.0
+diameter_threshold: 1.5
+filter_ratio_small: 0.9
+filter_ratio_medium: 0.8
+filter_ratio_large: 0.7

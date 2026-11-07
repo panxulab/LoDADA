@@ -1,0 +1,19 @@
+# MuJoCo localized perturbation: hopper-local-0.3-1.5-6.0
+
+domain: mujoco
+setting: localized
+env: hopper
+source_dataset: hopper-medium-v2
+local_shift_levels: [0.3, 1.5, 6.0]  # noise std of each region group
+num_local_regions: 15
+num_target_samples: 5000
+max_step: 1000000
+
+# LoDADA hyperparameters
+num_clusters: 50
+reg_weight: 0.5
+alpha: 1.0
+diameter_threshold: 1.5
+filter_ratio_small: 0.9
+filter_ratio_medium: 0.8
+filter_ratio_large: 0.7

@@ -1,0 +1,19 @@
+# AntMaze map shift: antmaze-medium-diverse-4
+
+domain: antmaze
+env: antmaze-medium
+shift_level: 4
+source_dataset: antmaze-medium-diverse-v0
+srctype: medium
+tartype: medium
+max_step: 500000
+
+# LoDADA hyperparameters
+num_clusters: 20
+reg_weight: 0.5
+alpha: 3.0
+diameter_threshold: 5.0
+filter_ratio_small: 0.9
+filter_ratio_medium: 0.8
+filter_ratio_large: 0.7
+kmeans_n_init: 1
