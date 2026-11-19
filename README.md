@@ -1,4 +1,4 @@
-# LoDADA: Localized Dynamics-Aware Domain Adaptation for Off-Dynamics Offline Reinforcement Learning
+# Localized Dynamics-Aware Domain Adaptation for Off-Dynamics Offline Reinforcement Learning
 
 ### <p align="center">[NeurIPS 2026 Spotlight]</p>
 
